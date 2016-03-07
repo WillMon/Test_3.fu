@@ -16,5 +16,26 @@ namespace Test_3
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Display_Click(object sender, EventArgs e)
+        {
+            string Namr = txtOutput.Text.Trim();
+            MessageBox.Show(Namr);
+        }
+
+        private void closeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
